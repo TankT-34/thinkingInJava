@@ -11,7 +11,7 @@ class Tree {
     /**
      * Конструктор без параметров
      */
-    public Tree() {
+    Tree() {
         System.out.println("Сажаем росток");
         height = 0;
     }
@@ -19,7 +19,7 @@ class Tree {
     /**
      * Конструктор с высотой
      */
-    public Tree(int initialHeight) {
+    Tree(int initialHeight) {
         height = initialHeight;
         System.out.println("Создание дерева высотой " + height + " м.");
     }
@@ -27,14 +27,14 @@ class Tree {
     /**
      * Метод info без параметров
      */
-    public void info() {
+    void info() {
         System.out.println("Дерево высотой " + height + " м.");
     }
 
     /**
      * Метод info с параметром
      */
-    public void info(String s) {
+    void info(String s) {
         System.out.println(s + ": Дерево высотой " + height + " м.");
     }
 }
@@ -43,6 +43,7 @@ class Tree {
  * Главный класс
  */
 public class Excercize16 {
+    public Tree tree;
     /**
      * Основной метод
      */
