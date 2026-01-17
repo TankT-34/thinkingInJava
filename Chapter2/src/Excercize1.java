@@ -4,6 +4,6 @@ public class Excercize1 {
     public static void main(String[] args){
         Excercize1 object = new Excercize1();
         System.out.println("Значение int: " + object.number);
-        System.out.println("Значение char: " + object.symbol);
+        System.out.println("Значение сhar: " + object.symbol);
     }
 }
